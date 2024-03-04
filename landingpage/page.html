@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexible Landing Page</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #f4f4f4;
+        padding: 0.5rem;
+    }
+
+    nav a {
+        margin: 0 1rem;
+        color: #333;
+        text-decoration: none;
+    }
+
+    main {
+        flex: 1;
+        padding: 1rem;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+    }
+    .img_items{
+    display: flex;
+    justify-content: space-around;
+    }
+    button {
+   background-color: #4CAF50;    
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  /* padding-left: 90px; */
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 900px;
+    }
+
+    /* button{
+         justify-content: center; 
+        text-align: center;
+    } */
+</style>
+</head>
+<body>
+    <header>
+        <h1>WEB STORE</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h1 style="padding-left: 750px;">Welcome to our  Book store</h1>
+        <p>Web development encompasses the creation of websites and web applications. It involves various technologies such as HTML, CSS, and JavaScript for front-end design, while back-end development manages server-side logic and databases. Web developers also focus on user experience, accessibility, and performance optimization to create engaging and functional web experiences.</p>
+        <div class="img_items">
+            <p><img src="img3.png" alt="yes"></p>
+            <p><img src="img2.png" alt="yes"></p>
+            <p><img src="img3.png" alt="yes"></p>
+        </div>
+        <div class="button">
+        <button style="background-color: rgb(29, 195, 246);">Explore</button>
+        </div>
+   </main>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
